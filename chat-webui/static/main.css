@@ -1,0 +1,77 @@
+body {
+    margin: 20px;
+    font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: rgb(41, 41, 41);
+}
+
+main {
+    padding: 0 140px;
+    color: whitesmoke;
+}
+
+.bot-message {
+    margin: 4px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: larger;
+    background-color: #5b5b5b;
+    color: white;
+    align-self: flex-start;
+    max-width: 70%;
+}
+
+.user-message {
+    margin: 4px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: larger;
+    background-color: black;
+    color: whitesmoke;
+    align-self: flex-end;
+    max-width: 70%;
+}
+
+#chat {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+#history {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px 4px 0 0;
+    background-color: rgb(243, 243, 243);
+    height: 65vh;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+#input-container {
+    display: flex;
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+}
+
+#message {
+    font-size: larger;
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 0;
+}
+
+#send {
+    background-color: #5b5b5b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 0;
+}
+
+#send:hover {
+    background-color: #252525;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Chat</title>
+    <link rel="stylesheet" href="static/main.css">
+</head>
+
+<body>
+    <main>
+        <h1>Gemini Chat Example</h1>
+        <div id="chat">
+            <div id="history"></div>
+            <div id="input-container">
+                <input id="message" placeholder="Message" type="text" onkeydown="handleEnter(event)">
+                <button id="send" onclick="send()">Send</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="static/index.js"></script>
+</body>
+
+</html>
